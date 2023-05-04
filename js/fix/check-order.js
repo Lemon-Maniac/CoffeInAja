@@ -99,7 +99,7 @@ async function orderAction(){
             timerProgressBar: true
         }).then(() => {
             window.localStorage.removeItem('list-order')
-            window.location.replace('/')
+            window.location.replace('https://lemon-maniac.github.io/CoffeInAja/')
         })
     }else{
         Swal.fire({
