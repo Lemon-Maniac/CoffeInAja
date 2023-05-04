@@ -30,7 +30,7 @@ function displayLoopingData(menuObj){
         if(menuObj[i].type === 'makanan'){
             // JS DOM, Tag a
             const aTag = document.createElement('a')
-            aTag.setAttribute('href', `http://127.0.0.1:3000/menu-display.html?nama=${menuObj[i].nama}&id=${menuObj[i].id}`)
+            aTag.setAttribute('href', `menu-display.html?nama=${menuObj[i].nama}&id=${menuObj[i].id}`)
             aTag.setAttribute('class', 'menu-card')
 
             // image inside tag a
@@ -62,7 +62,7 @@ function displayLoopingData(menuObj){
         }else if(menuObj[i].type === 'minuman'){
             // JS DOM, Tag a
             const aTag = document.createElement('a')
-            aTag.setAttribute('href', `http://127.0.0.1:3000/menu-display.html?nama=${menuObj[i].nama}&id=${menuObj[i].id}`)
+            aTag.setAttribute('href', `menu-display.html?nama=${menuObj[i].nama}&id=${menuObj[i].id}`)
             aTag.setAttribute('class', 'menu-card')
 
             // image inside tag a
